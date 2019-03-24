@@ -47,7 +47,6 @@ else{
         console.log('No se encontró el curso con id:\t'+idCurso+'\nVerifique que exista un curso con el id. ingresado.' );
     }
     else{
-        console.log("INFORMACION DEL CURSO:")
         let info= infoCurso(cursoL);
         let texto = info + "Nombre estudiante:\t"+nombre_estudiante +
                     "\nCedula estudiante:\t" + cedula_estudiante;

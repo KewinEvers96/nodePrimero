@@ -33,10 +33,10 @@ let descCurso= (curso, callback, timer) =>{
     }, 2000*timer);
 }
 let infoCurso = curso => {
-    let desc =  "Id del curso:\t"+curso.id + 
-        "\nNombre del curso:\t" + curso.nombre+
-        "\nDuración del curso:\t"+curso.duracion+" horas"+
-        "\nValor del curso:\t"+curso.valor+ " COP\n";
+    let desc =  "<p>Id del curso:\t"+curso.id + 
+        "<br>Nombre del curso:\t" + curso.nombre+
+        "<br>Duración del curso:\t"+curso.duracion+" horas"+
+        "<br>Valor del curso:\t"+curso.valor+ " COP</p>";
     return desc;
 }
 module.exports={cursos, descCurso, infoCurso};

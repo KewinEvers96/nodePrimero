@@ -1,6 +1,6 @@
 {
   "name": "repositorio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "primer trabajo",
   "main": "cursos.js",
   "dependencies": {
@@ -11,5 +11,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kewin4evers@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KewinEvers96/nodePrimero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KewinEvers96/nodePrimero/issues"
+  },
+  "homepage": "https://github.com/KewinEvers96/nodePrimero#readme"
 }

@@ -49,7 +49,7 @@ else{
     else{
         let info= infoCurso(cursoL);
         let texto = info + "Nombre estudiante:\t"+nombre_estudiante +
-                    "\nCedula estudiante:\t" + cedula_estudiante;
+                    "<br>Cedula estudiante:\t" + cedula_estudiante;
         // fs.writeFile("Info de matricula.txt", texto, (err)=>{
         //     if(err) throw(err);
         //     console.log('Se ha creado el archivo de matricula');
